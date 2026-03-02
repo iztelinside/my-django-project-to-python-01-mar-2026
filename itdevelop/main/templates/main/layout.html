@@ -19,8 +19,8 @@
         </div>
         <div class="main__lest_list">
             <ul>
-                <li><a href="">Main</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="{% url 'home' %}">Main</a></li>
+                <li><a href="{% url 'about' %}">About Us</a></li>
                 <li><a href="">New Standart</a></li>
             </ul>
         </div>
@@ -30,8 +30,15 @@
             {% endblock %}
         </div>
     </div>
-    <div id="main__basic"></div>
-    <div id="main__right"></div>
+    <div id="main__basic">
+        <div class="main__basic_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi aperiam aspernatur cum delectus ducimus eaque error et, iure minima nam neque nostrum provident quod, quos repellendus repudiandae sapiente sed tenetur voluptatibus? Aut exercitationem non officiis quasi quisquam tenetur, ut.</p>
+
+        </div>
+    </div>
+    <div id="main__right">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi aperiam aspernatur cum delectus ducimus eaque error et, iure minima nam neque nostrum provident quod, quos repellendus repudiandae sapiente sed tenetur voluptatibus? Aut exercitationem non officiis quasi quisquam tenetur, ut.</p>
+    </div>
 </div>
 <div id="footer"></div>
 

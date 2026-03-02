@@ -1,10 +1,28 @@
 h1, h2, h3, h4, h5, h6 {
   color: red;
 }
-
+#header{
+    height: 60px;
+    border: 2px solid blue;
+}
+#main{
+    display: flex;
+}
 .main__left_logo{
     width: 30px;
     height: 30px;
-    border-style: solid;
-    border-color: red;
+
+    border: 2px solid red;
+}
+
+#main__left{
+    float: left;
+    width: 25%;
+}
+#main__basic{
+    width: 50%;
+}
+
+#main__right{
+    width: 25%;
 }
