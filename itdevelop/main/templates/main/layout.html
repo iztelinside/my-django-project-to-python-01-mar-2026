@@ -13,14 +13,21 @@
 <body>
 <div id="header"></div>
 <div id="main">
-    <div id="main__left"></div>
+    <div id="main__left">
+        <div class="main__left_logo">
+            <img src="{% static 'main/img/house-regular.svg' %}" alt="">
+        </div>
+        <div class="main__left_content">
+            {% block content %}
+
+            {% endblock %}
+        </div>
+    </div>
     <div id="main__basic"></div>
     <div id="main__right"></div>
 </div>
 <div id="footer"></div>
 
-    {% block content %}
 
-    {% endblock %}
 </body>
 </html>
