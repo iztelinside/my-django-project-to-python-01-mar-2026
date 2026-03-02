@@ -5,12 +5,12 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, "main/index.html")
+    return render(request, "main/index.html", {"title":"Home Page"})
 # def index(request):
 #     return HttpResponse("Hello, world. You're at the polls index.")
 
 def about(request):
-    return render(request, "main/about.html")
+    return render(request, "main/about.html", {"text":"About Us Page"})
 # def about(request):
 #     return HttpResponse("About is Reddy.")
 
