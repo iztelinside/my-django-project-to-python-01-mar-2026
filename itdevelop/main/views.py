@@ -16,5 +16,8 @@ def index(request):
 def about(request):
     return render(request, "main/about.html", {"text":"About Us Page"})
 
+def news(request):
+    return render(request, "main/about.html", {"text":"News Page"})
+
 
 
