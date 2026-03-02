@@ -2,3 +2,9 @@ h1, h2, h3, h4, h5, h6 {
   color: red;
 }
 
+.main__left_logo{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: red;
+}
