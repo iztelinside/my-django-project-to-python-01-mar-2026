@@ -1,13 +1,17 @@
 
 
 from django.shortcuts import render
-from django.http import HttpResponse
+# from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return render(request, "main/index.html")
+# def index(request):
+#     return HttpResponse("Hello, world. You're at the polls index.")
 
 def about(request):
-    return HttpResponse("About is Reddy.")
+    return render(request, "main/about.html")
+# def about(request):
+#     return HttpResponse("About is Reddy.")
 
 
